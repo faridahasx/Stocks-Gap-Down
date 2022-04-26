@@ -1,13 +1,3 @@
-"""
-Strategy
-
-Entry: If stock gaps down below the low of the previous day when it opens.
-
-Taking Profits: Take profit on the first profitable openining. This means wait to sell until the stock has actually opened higher than the latest entry.
-
-"""
-
-
 import config
 import logging
 import alpaca_trade_api as ata
